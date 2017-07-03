@@ -1,0 +1,35 @@
+{
+  "name": "youtube-manifest-downloader",
+  "description": "",
+  "homepage": "https://github.com/samradical/youtube-manifest-downloader",
+  "author": "Sam Elie <sam@add.dog>",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samradical/youtube-manifest-downloader.git",
+    "web": "https://github.com/samradical/youtube-manifest-downloader/"
+  },
+  "main": "index.js",
+  "scripts": {},
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "colors": "^1.1.2",
+    "lodash": "^4.17.4",
+    "tmp": "0.0.31",
+    "xhr-request": "^1.0.1",
+    "xml2js": "^0.4.17"
+  },
+  "engines": {
+    "node": ">=6.7.0"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/samradical/youtube-manifest-downloader/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  ]
+}
