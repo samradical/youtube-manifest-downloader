@@ -2,6 +2,7 @@ const UpdateYoutube = require('./lib/updateYoutubeDL');
 const { downloadVideo, getManifest } = require('./lib/youtubeDL');
 
 const Q = require('bluebird');
+const { flatten } = require('lodash')
 const { readFileSync } = require('fs')
 const parseString = Q.promisify(require('xml2js').parseString);
 
@@ -31,5 +32,6 @@ module.exports = (videoIDs = [], options = { updateYoutube: false }) => {
             })
           })
       }, { concurrency: 1 })
+      .then(results=> flatten(results))
     })
 }
