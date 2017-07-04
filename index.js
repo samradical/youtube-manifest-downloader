@@ -22,7 +22,7 @@ module.exports = (videoIDs = [], options = { updateYoutube: false }) => {
               const { Representation } = videoAdaptation
               return Q.map(Representation, r => {
                 const { SegmentBase, $ } = r
-                const BaseURL = r.BaseURL[0]._
+                const BaseURL = r.BaseURL[0]._ || r.BaseURL[0]
                 const ext = BaseURL.indexOf('video/mp4') > -1 ? "mp4" : "webm"
                 return downloadVideo(id, Object.assign({}, options, {
                   format: $.id,
