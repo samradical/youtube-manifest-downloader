@@ -1,12 +1,12 @@
 {
   "name": "youtube-manifest-downloader",
-  "description": "",
+  "description": "PLAYLIST https://www.youtube.com/playlist?list=PLZRcgvIPIUuWH9WxuUqV2QEs5S-C63vzx",
   "homepage": "https://github.com/samradical/youtube-manifest-downloader",
   "author": "Sam Elie <sam@add.dog>",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/samradical/youtube-manifest-downloader.git",
+    "url": "git+https://github.com/samradical/youtube-manifest-downloader.git",
     "web": "https://github.com/samradical/youtube-manifest-downloader/"
   },
   "main": "index.js",
@@ -31,5 +31,10 @@
       "type": "MIT",
       "url": "https://opensource.org/licenses/MIT"
     }
-  ]
+  ],
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "license": "MIT"
 }
