@@ -9,3 +9,6 @@ node_modules
 *.png
 assets
 npm-debug.log.*
+
+*.part
+*.ytdl

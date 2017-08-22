@@ -15,6 +15,7 @@
     "bluebird": "^3.5.0",
     "colors": "^1.1.2",
     "lodash": "^4.17.4",
+    "node-dash-sidx": "^0.1.12",
     "tmp": "0.0.31",
     "xhr-request": "^1.0.1",
     "xml2js": "^0.4.17"
